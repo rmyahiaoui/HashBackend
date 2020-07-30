@@ -1,5 +1,5 @@
 # HashBackend
-##Installation de l'application
+##Installation et execution de l'application
 <ol>
     <li>composer install</li>
     <li>php bin/console doctrine:database:create</li>
