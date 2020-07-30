@@ -1,9 +1,12 @@
 # boutiqueBackend
 ##application sur symfony 
 
-##composer install
-##php bin/console doctrine:database:create
-##php bin/console doctrine:migrations:migrate
-##php bin/console doctrine:fixtures:load
-##symfony server:start
+
+<ol>
+    <li>composer install</li>
+    <li>php bin/console doctrine:database:create</li>
+    <li>php bin/console doctrine:migrations:migrate</li>
+    <li>php bin/console doctrine:fixtures:load</li>
+    <li>symfony server:start</li>
+</ol>
 
