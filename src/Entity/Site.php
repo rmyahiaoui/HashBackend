@@ -11,6 +11,7 @@ use Symfony\Component\Serializer\Annotation\Groups;
 use Symfony\Component\Validator\Constraints as Assert;
 
 /**
+ * contient l'url et le hash généré
  * @ApiResource()
  * @ORM\Entity(repositoryClass=SiteRepository::class)
  */
@@ -27,8 +28,8 @@ class Site
     /**
      * @ORM\Column(type="string", length=255)
      * @Assert\NotBlank
-     * @Assert\Email(
-     *     message = "The email '{{ value }}' is not a valid email."
+     * @Assert\Url(
+     *     message = "The '{{ value }}' is not a valid URL."
      * )
      * @Groups("group1")
      */
