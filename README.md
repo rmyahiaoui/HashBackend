@@ -1,7 +1,5 @@
-# boutiqueBackend
-##application sur symfony 
-
-
+# HashBackend
+##Installation de l'application
 <ol>
     <li>composer install</li>
     <li>php bin/console doctrine:database:create</li>
