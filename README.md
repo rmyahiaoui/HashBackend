@@ -8,3 +8,5 @@
     <li>symfony server:start</li>
 </ol>
 
+<p>Remarque: vous pouvez testé l'api avec le lien suivant http://localhost:8000/api/</p>
+
